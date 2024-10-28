@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "AlitasParaVolarApp",
-    "slug": "AlitasParaVolarApp",
+    "name": "AlitasParaVolar-APP",
+    "slug": "Clinica-App",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -22,6 +22,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ec612db6-42bb-46b3-a71b-292b28c1bc5d"
+      }
+    },
+    "owner": "nicoturco"
   }
 }
