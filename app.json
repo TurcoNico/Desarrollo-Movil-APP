@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "MyNewProject",
-    "slug": "MyNewProject",
+    "slug": "proyecto1",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -9,7 +9,8 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#ffffff",
+      "newArchEnabled": true
     },
     "ios": {
       "supportsTablet": true
@@ -22,6 +23,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ec612db6-42bb-46b3-a71b-292b28c1bc5d"
+      }
+    },
+    "owner": "nicoturco"
   }
 }
